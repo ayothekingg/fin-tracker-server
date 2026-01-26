@@ -7,6 +7,7 @@ import { UsersModule } from './users/users.module';
 import { AuthModule } from './auth/auth.module';
 import { JwtModule } from './jwt/jwt.module';
 import { ExpenseModule } from './expense/expense.module';
+import { BudgetModule } from './budget/budget.module';
 
 @Module({
   imports: [
@@ -28,6 +29,7 @@ import { ExpenseModule } from './expense/expense.module';
     AuthModule,
     JwtModule,
     ExpenseModule,
+    BudgetModule,
   ],
   controllers: [AppController],
   providers: [AppService],

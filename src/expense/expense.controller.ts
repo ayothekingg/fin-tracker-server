@@ -10,8 +10,8 @@ import {
   Request,
 } from '@nestjs/common';
 import { ExpenseService } from './expense.service';
-import { CreateExpenseDto } from 'src/expense/dto/create-expense.dto';
-import { UpdateExpenseDto } from 'src/expense/dto/update-expense.dto';
+import { CreateExpenseDto } from 'src/dto/create-expense.dto';
+import { UpdateExpenseDto } from 'src/dto/update-expense.dto';
 import { JwtAuthGuard } from 'src/auth/jwt-auth.guard';
 
 @Controller('api/expenses')

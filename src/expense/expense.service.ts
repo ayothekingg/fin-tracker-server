@@ -5,9 +5,9 @@ import {
 } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
-import { CreateExpenseDto } from 'src/expense/dto/create-expense.dto';
-import { UpdateExpenseDto } from 'src/expense/dto/update-expense.dto';
-import { Expense, ExpenseDocument } from 'src/expense/schemas/expense.schema';
+import { CreateExpenseDto } from 'src/dto/create-expense.dto';
+import { UpdateExpenseDto } from 'src/dto/update-expense.dto';
+import { Expense, ExpenseDocument } from 'src/schemas/expense.schema';
 
 @Injectable()
 export class ExpenseService {
